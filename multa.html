@@ -9,22 +9,28 @@
   </head>
   <body></body>
 </html>
-<div id="sistema_container">
-  <div id="titulo">
-    <h1>Sistema de Multas</h1>
+<div id="container-geral">
+  <div id="sistema_container">
+    <div id="titulo">
+      <h1>Sistema de Multas</h1>
+    </div>
+    <div id="input_usuario">
+      <p>
+        Velocidade do carro :
+        <input type="number" name="velocidade_carro" id="velocidade_carro" />
+        Km\Hr
+      </p>
+    </div>
+  
+    <div id=>
+      <input id="botao"   type="button" value="Verificar" onclick="calcular()" />
+    </div>
+    <div id="res"></div>
+    <div id="pagamento">
+      <a class="link_pagamento" href="livro/Detran Multa.pdf" download="Multa.pdf"> Imprima sua multa para pagamento aqui.</a>
+    </div>
   </div>
-  <div id="input_usuario">
-    <p>
-      Velocidade do carro :
-      <input type="number" name="velocidade_carro" id="velocidade_carro" />
-      Km\Hr
-    </p>
-  </div>
-
-  <div id=>
-    <input id="botao"   type="button" value="Verificar" onclick="calcular()" />
-  </div>
-  <div id="res"></div>
-
+ 
 </div>
+
 <script src="multa.js"></script>

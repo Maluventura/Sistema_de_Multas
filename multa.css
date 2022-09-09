@@ -4,20 +4,18 @@
 }
 
 body {
-  background-color: rgba(128, 128, 128, 0.011);
+  background-image: url(rua.jpg);
 }
 
 #sistema_container {
-  background-image: linear-gradient(to bottom, #d8e2dc, #b5bdba);
+  background-image: linear-gradient(to bottom, #87d3d6c9, #b5bdba);
   width: 800px;
   height: 400px;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  border-radius: 30px;
   align-items: center;
-  position: relative;
-  left: 400px;
-  top: 200px;
 }
 
 #titulo {
@@ -29,6 +27,7 @@ body {
 }
 #input_usuario {
   font-size: 20px;
+  padding: 10px;
 }
 #botao {
   margin-top: 50px;
@@ -42,6 +41,40 @@ body {
   margin-top: 15px;
 }
 #botao:hover {
-  border: 3px solid black;
-  background-color: #93162080;
+  border: 1px solid black;
+  background-image: linear-gradient(to bottom, #87d3d6c9, #b5bdba);
+}
+
+#container-geral {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#velocidade_carro {
+  padding: 2px;
+  width: 60px;
+  border-radius: 7px;
+}
+
+#pagamento {
+  position: relative;
+  left: 30%;
+  top: 15%;
+}
+
+.link_pagamento {
+  color: #931621;
+  background-color: rgba(240, 248, 255, 0.349);
+  border-radius: 15px;
+  padding: 5px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.13);
+  text-decoration: none;
+}
+
+.link_pagamento:hover {
+  text-decoration: underline;
+  padding: 7px;
 }

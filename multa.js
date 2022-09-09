@@ -2,7 +2,7 @@ function calcular() {
   var vel_usuario = document.getElementById("velocidade_carro");
   var res = document.getElementById("res");
   var velocidade = Number(vel_usuario.value);
-  res.innerHTML = `<p id="velocidade">Sua velocidade atual é de ${velocidade}</p>`;
+  res.innerHTML = `<p id="velocidade">Sua velocidade atual é de ${velocidade} km/hr</p>`;
   if (velocidade > 80) {
     res.innerHTML += `
       <p id="func" >Sua velocidade excedeu o permitido .Você foi multado!</p>
